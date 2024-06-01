@@ -1,175 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/app.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protonu - Portfolio</title>
+    <link rel="stylesheet" href="app.css">
 </head>
-
 <body>
-  <header>
-    <div id="nav-mobile">
-      <div class="menu-btn-open">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-      </div>
-      <div class="menu-btn-close">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-      </div>
-      <div class="logo brandName">Protonu</div>
-      <nav id="mnav">
-        <ul class="mnav-menu">
-          <li class="mnav-item"><a class="mnav-link" href="#home">Home</a></li>
-          <li class="mnav-item"><a class="mnav-link" href="#about">about</a></li>
-          <li class="mnav-item"><a class="mnav-link" href="#portfolio">portfolio</a></li>
-          <li class="mnav-item"><a class="mnav-link" href="#contact">contact</a></li>
+    <header id="nav-top">
+        <div class="nav-heading">PROTON WEBSITE</div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
-      </nav>
-    </div>
-    <nav id="nav-top">
-      <div class="nav-heading brandName">
-        Protonu
-      </div>
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#home" class="nav-link">home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#about" class="nav-link">about</a>
-        </li>
-        <li class="nav-item">
-          <a href="#portfolio" class="nav-link">portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link">contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    </header>
 
-  <main>
-    <section id="home">
-      
+    <main>
+        <section id="home">
+            <h1 class="brandName">Protonu Ghosh</h1>
+            <p>Hey welcome to my portfolio website. I am Protonu Ghosh a Civil Engineering enthusiast with a passion for excellence.</p>
+            <p>B.Tech CE IIEST SHIBPUR</p>
+            <p>GPA- 7.8</p>
+            <P>2020 - 2024</P>
+            <p>Secondary examination - Grade A+ 2018</p>
+            <p>HIGH Secondary examination - Grade A+ 2020</p>
+            <div class="home-image">
+                <img src="me.png" alt="Welcome Image">
+            </div>
+        </section>
 
-    <section id="about">
-      <div class="img-container">
-        <div class="user-img">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Protonu Ghosh, a dedicated Engineering enthusiast ready to excel in your esteemed company.Currently looking for a FTE role</p>
+        </section>
 
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <img src="DA.png" alt="Project 1">
+                <a href="https://github.com/protonughosh/fuzzy-fishstick" class="btn-dark">View Project</a>
+            </div>
+            <div class="project">
+                <img src="wp.png" alt="Project 2">
+                <a href="https://drive.google.com/file/d/1MeYd-dYZeMlnTg4ySOrHNEF6_HuSZnzv/view?usp=drive_link" class="btn-dark">View Project</a>
+            </div>
+        <section id="portfolio">
+            <h2>RESUME</h2>
+            <div class="project">
+              <img src="TR.png" alt="Project 1">
+              <a href="https://drive.google.com/file/d/1wqWP5iZTW7yezcVP2uZu3L9J9u_lXHUk/view?usp=drive_link" class="btn-dark">View RESUME TECH</a>
+          </div>
+          <div class="project">
+            <img src="CR.png" alt="Project 2">
+            <a href="https://drive.google.com/file/d/1lsInwtGjcEthnQOX4DBM9l_q42vOw7GE/view?usp=drive_link" class="btn-dark">View RESUME CORE</a>
         </div>
-      </div>
-      <div class="profile">
-        <h1><b>IIEST</b><br>
-          <span>2024</span></h1>
-        <h3>DATA SCIENTIST</h3>
-    
-        <div class="primary-btn">Portfolio</div>
-        <div class="ghost-btn">resume</div>
-      </div>
-      <b>Welcome to my portfolio! I'm Protonu GHosh, a dedicated and forward-thinking B.Tech student majoring in Civil Engineering. Passionate about creating innovative solutions at the crossroads of technology and infrastructure,
-       I am on a journey to bridge the gap between traditional engineering principles and cutting-edge data-driven insights.</b>
-    </section>
+            <!-- Add more projects as needed -->
+        </section>
+        </section>
 
-    <section id="portfolio">
-      <div class="item">
-        <a href="#">
-          <img src="img/prj/project1.jpg" alt="Project 1">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project 1
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/prj/project2.jpg" alt="Project 2">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project 1
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/prj/project3.jpg" alt="Project 3">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project 1
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/prj/project4.jpg" alt="Project 4">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project 1
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/prj/project5.jpg" alt="Project 5">
-        </a>
-        <a href="#" class="btn-light">
-          <i class="fas fa-eye"></i> Project 1
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
+        <section id="contact">
+            <div class="upperRow"></div>
+            <div class="lowerRow">
+                <div class="logo">Protonu Ghosh</div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/protonu-g-6570591b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bj78HMjeIQDiAp%2BkF%2FokFKA%3D%3D">LinkedIn</a>
+                    <a href="https://github.com/protonughosh">GitHub</a>
+                    <a href="#">Twitter</a>
+                </div>
+                <div class="address">
+                    <span>Address:</span> Kolkata, West Bengal, India
+                    <br><span>Email:</span> protonughosh@gmail.com
+                </div>
+            </div>
+        </section>
+    </main>
 
-    </section>
-
-    <section id="contact">
-      <div class="upperRow"></div>
-      <div class="lowerRow">
-        <h4 class="logo brandName">Protonu</h4>
-        <div class="social">
-          <a href="#">
-            <i class="fab fa-facebook"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </div>
-        <div class="address">
-          <span>Email : &nbsp;</span>protonughosh@gmail.com<br /><span>Phone : &nbsp;</span>+91 6290887242
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-
-
-
- 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <!-- 2. app.js -->
-  <script src="js/app.js"></script>
+    <footer>
+        <p>&copy; Feel free to Whatsapp me : +91 6290887242</p>
+    </footer>
 </body>
-
 </html>
